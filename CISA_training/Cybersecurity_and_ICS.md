@@ -124,7 +124,7 @@ The process and discrete manufacturing industries produce products at site facil
 
 These facilities can span counties, states, or countries. They are the transmission lines or pipelines that carry electricity, oil, and water over long distances. 
 
-- Includes railroads and highways taht trains and trucks use to carry goods. 
+- Includes railroads and highways that trains and trucks use to carry goods. 
 - Usually unmanned
 - Most transmission infrastructure, such as pumps and compressor stations,are in in remote locations, which are difficult to secure.
 
@@ -143,3 +143,37 @@ Distribution facilities may be monitored and controlled from a central control c
 A network of synchronized power providers and customers, connected by transmission and distribution lines, and operated by one or more control centers.
 
 # Identify different types of industrial processes and their dependencies
+
+## Types of manufacturing
+
+
+**Discrete manufacturing** results in the creation of products that can be easily differentiated - cars, books, toys, furniture, or cell phones. Discrete manufacturing is not continuous, meaning it can be started or stopped at any time. 
+
+**Process manufacturing** involves using formulas. Examples include oil refining, chemical refining, food and beverage production, and pulp and paper production. It differs from discrete manufacturing because once the final product is produced, it cannot be taken apart to get the original components.
+
+**Continuous process manufacturing**
+
+- Uninterrupted flow of material from start to finish during the transition from a raw material to finished product.
+
+- The ICS used in continuous processes must be flexible to control all phases of the process: from startup to shutdowns, to maintenance shutdowns. During continuous operations, such as in a refinery, the ICS is constantly adjusting the valves and pumps to keep the process within specifications.
+
+**Batch process**
+
+- Has a starting and ending point. As one phase of the batch is finished, the system will transition to another phase of the batch process. 
+
+- Pharmaceuticals and specialty chemicals rely heavily on batch automation to create their products. 
+
+- Batch management systems work with the control system to execute batch processes. They are also used to manage recipes and records. 
+
+**Hybrid process**
+
+- Uses a combination of continuous and batch controls. 
+
+- Water treatement is a good example of a hybrid process. Water flows through the treatment plant where disinfectants are injected into the water to kill bacteria. The chemicals cause particles to clump together, where they are removed through sedimentation or filtration.
+
+## Process Dependencies
+
+A process relies on upstream and downstream systems to produce a product. These interdependencies create both cyber and physical security concerns. 
+
+Most process and discrete manufacturing facilities have a control system that monitors and controls the main process. 
+
